@@ -25,6 +25,11 @@ function drawcontainer(){
    
 
 }
+function deletecontainer(){
+    while(container.firstChild){
+        container.removeChild(container.firstChild);
+    }
+}
 function mouseOver(obj){
     if(color=="black"){
         obj.style.background="black";
@@ -37,6 +42,7 @@ function mouseOver(obj){
 function newn(e){
     n=Math.trunc(e.value);
      value=document.getElementById("value").innerHTML=n;
+     deletecontainer();
    drawcontainer();
    console.log(n);
 }
