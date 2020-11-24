@@ -41,7 +41,7 @@ function mouseOver(obj){
 
 function newn(e){
     n=Math.trunc(e.value);
-     value=document.getElementById("value").innerHTML=n;
+     value=document.getElementById("value").innerHTML=`${n}x${n}`;
      deletecontainer();
    drawcontainer();
    console.log(n);
@@ -50,7 +50,7 @@ function newn(e){
 const rainbow=document.getElementById("rainbow");
 const black=document.getElementById("black");
 const clear=document.getElementById("clear");
-let value=document.getElementById("value").innerHTML=n;
+let value=document.getElementById("value").innerHTML=`${n}x${n}`;
 
 
 rainbow.addEventListener('click',()=>{
