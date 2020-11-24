@@ -6,6 +6,7 @@ html{
 }
 h1{
     text-align: center;
+    font-family: 'Nerko One', cursive;
 }
 #container{
     background: white;
@@ -21,6 +22,7 @@ h1{
 .buttons{
     text-align: center;
     margin: 1rem;
+    font-family: 'Anton', sans-serif;
 }
 button{
     
@@ -29,6 +31,7 @@ button{
     border: 1px solid blue;
     background-color: cornsilk;
     margin: 1rem;
+    font-family: 'Anton', sans-serif;
 }
 
 .content{
@@ -36,4 +39,14 @@ button{
     height: auto;
     border: 1px solid grey;
     
+}
+footer{
+    margin-top: 10rem;
+   text-align: center;
+   
+}
+.pfooter{
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Nerko One', cursive;
 }
