@@ -1,0 +1,39 @@
+
+html{
+    margin:0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(206,226,170,0.6283700980392157) 41%, rgba(0,212,255,1) 100%);
+}
+h1{
+    text-align: center;
+}
+#container{
+    background: white;
+   margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+ 
+
+
+}
+.buttons{
+    text-align: center;
+    margin: 1rem;
+}
+button{
+    
+    width: 6rem;
+    height: auto;
+    border: 1px solid blue;
+    background-color: cornsilk;
+    margin: 1rem;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    border: 1px solid grey;
+    
+}
